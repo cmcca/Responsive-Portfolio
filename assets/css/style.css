@@ -1,0 +1,448 @@
+body {
+  font-family:'Quicksand', sans-serif;
+  font-size: 1vw;
+  line-height: 3vw;
+  color: #777777;
+  background: url("../images/concrete_seamless.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 100%;
+  width: 96vw;
+  margin: 0 auto;
+  clear: both;
+}
+
+.container a {
+  font-family:'Quicksand', sans-serif;
+  font-size: 3vw;
+  line-height: 7vw;
+  color: #876da8
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 2vw;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  color: #876da8;
+}
+
+h1 {
+  padding-bottom: 2vw;
+  font-size: 3vw;
+  line-height: 4vw;
+  border-bottom: vw solid #dddddd;
+}
+
+h2,
+h3 {
+  font-size: 2vw;
+}
+
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 3vw;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: vw solid #cccccc;
+}
+
+#logo {
+  float: left;
+  width: 25vw;
+  height: 9vw;
+  font-family:'Poiret One', cursive;
+  font-size: 3vw;
+  font-weight: 800;
+  line-height: 9vw;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #876da8;
+}
+
+nav {
+  float: right;
+  margin-top: 2vw;
+  min-width: 90%;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 1vw;
+  margin-left: 1vw;
+  line-height: 1vw;
+  color: #999;
+  text-decoration: none;
+  border-left: vw solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3vw 0;
+  clear: both;
+  font-size: 1vw;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: vw solid #876da8;
+  height: 5vw;
+}
+
+h3, h2 {
+  padding-bottom: 2vw;
+  margin-bottom: 1vw;
+  line-height: 2vw;
+  border-bottom: vw solid #eeeeee;
+}
+
+
+
+#main-container {
+  padding-top: 13vw;
+  min-height: calc(100vh - 7vw);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  padding: 3vw;
+  margin: 0 0 4vw;
+  background: #ffffff;
+  border: vw solid #dddddd;
+}
+
+/* portfolio page */
+
+.work {
+  position: relative;
+  width: 27vw;
+  margin: 2vw 0 2vw;
+  overflow: auto;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 2vw;
+  width: 100%;
+  padding: 1vw;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 3vw;
+  color: #ffffff;
+  text-align: center;
+  background: #876da8;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  margin-top: 1vw;
+  margin-right: 2vw;
+  width: 100%;
+  height: 100%;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 2vw;
+}
+
+#contact-form li {
+  margin-bottom: 1vw;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 3vw;
+  padding: 0 1vw;
+  font-size: 1vw;
+  border: vw solid #dddddd;
+}
+
+textarea {
+  height: 20vw;
+}
+
+input[type=submit] {
+  padding: 1vw 3vw;
+  font-size: 1vw;
+  color: #ffffff;
+  cursor: pointer;
+  background: #876da8;
+  border: 0 none;
+}
+@media screen and (max-width:76vw) {
+
+  body {
+    font-family:'Quicksand', sans-serif;
+    font-size: 1vw;
+    line-height: 3vw;
+    color: #777777;
+    background: url("../images/concrete_seamless.png");
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  .container {
+    width: 100%;
+    width: 76vw;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .container a {
+    font-family:'Quicksand', sans-serif;
+    font-size: 3vw;
+    line-height: 7vw;
+    color: #876da8
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 2vw;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    color: #876da8;
+  }
+
+  h1 {
+    padding-bottom: 2vw;
+    font-size: 5vw;
+    line-height: 6vw;
+    border-bottom: vw solid #dddddd;
+  }
+
+  h2,
+  h3 {
+    font-size: 4vw;
+  }
+
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 3vw;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: vw solid #cccccc;
+  }
+
+  #logo {
+    float: left;
+    width: 25vw;
+    height: 9vw;
+    font-family:'Poiret One', cursive;
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 9vw;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #876da8;
+  }
+
+  nav {
+    float: right;
+    margin-top: 2vw;
+    min-width: 100%;
+  }
+
+  nav a {
+    display: inline-block;
+    padding-left: 1vw;
+    margin-left: 1vw;
+    line-height: 1vw;
+    color: #999;
+    text-decoration: none;
+    border-left: vw solid #efefef;
+  }
+
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 3vw 0;
+    clear: both;
+    font-size: 1vw;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: vw solid #876da8;
+    height: 5vw;
+  }
+
+  h3, h2 {
+    padding-bottom: 2vw;
+    margin-bottom: 1vw;
+    line-height: 2vw;
+    border-bottom: vw solid #eeeeee;
+  }
+
+
+
+  #main-container {
+    padding-top: 13vw;
+    min-height: calc(100vh - 7vw);
+  }
+
+  .main-section {
+    float: left;
+    width: 100%;
+    width: 96vw;
+    padding: 3vw;
+    margin: 0 0 4vw;
+    background: #ffffff;
+    border: vw solid #dddddd;
+  }
+
+  /* portfolio page */
+
+  .work {
+    position: relative;
+    width: 27vw;
+    margin: 2vw 0 2vw;
+    overflow: auto;
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 2vw;
+    width: 100%;
+    padding: 1vw;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 3vw;
+    color: #ffffff;
+    text-align: center;
+    background: #876da8;
+    border-bottom: 0;
+  }
+
+  .auth-image {
+    float: left;
+    margin-top: 1vw;
+    margin-right: 2vw;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* contact page */
+
+  #contact-form ul {
+    margin-bottom: 2vw;
+  }
+
+  #contact-form li {
+    margin-bottom: 1vw;
+  }
+
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 3vw;
+    padding: 0 1vw;
+    font-size: 1vw;
+    border: vw solid #dddddd;
+  }
+
+  textarea {
+    height: 20vw;
+  }
+
+  input[type=submit] {
+    padding: 1vw 3vw;
+    font-size: 1vw;
+    color: #ffffff;
+    cursor: pointer;
+    background: #876da8;
+    border: 0 none;
+  }
+}
+@media screen and (max-width:64vw) {
+  
+  /*I give up, please shoot me in the face*/
+}
